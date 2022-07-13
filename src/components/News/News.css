@@ -1,0 +1,100 @@
+.news_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+
+.news_section_2 {
+    width: 100%;
+    float: left;
+}
+
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+.health_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #252525;
+    font-weight: bold;
+}
+
+.health_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #252525;
+    margin: 0px;
+}
+
+.box_main {
+    width: 100%;
+    float: left;
+    background-color: #252525;
+    height: auto;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.box_main:hover {
+    background-color: #1becde;
+}
+
+.box_main.active {
+    background-color: #1becde;
+}
+
+.icon_1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 95px;
+}
+
+.daily_text {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    color: #fff;
+    line-height: 30px;
+}
+
+.daily_text_1 {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    color: #fff;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+
+.getquote_bt {
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.getquote_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #1becde;
+    padding: 7px 0px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.getquote_bt a:hover {
+    background-color: #252525;
+}

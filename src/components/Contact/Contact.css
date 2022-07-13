@@ -1,0 +1,107 @@
+.contact_section {
+    width: 100%;
+    float: left;
+    background-image: url(../../../public/static/img/contact-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+}
+
+
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.contact_taital {
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: #030202;
+    font-weight: bold;
+}
+
+.news_section_2 {
+    width: 100%;
+    float: left;
+}
+
+.icon_main {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+}
+
+.icon_7 {
+    width: 20%;
+    float: left;
+}
+
+.diabetes_text {
+    width: 70%;
+    float: left;
+    font-size: 30px;
+    color: #040101;
+    font-weight: 500;
+}
+
+.contact_box {
+    width: 100%;
+    float: left;
+    background-color: #f1fafb;
+    height: auto;
+    padding: 30px;
+}
+
+.book_text {
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    color: #252525;
+    text-align: center;
+    font-weight: 500;
+}
+.Email_text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #bebebe;
+    background-color: #ffffff;
+    padding: 5px 15px;
+    border: 0px;
+    margin-top: 30px;
+}
+
+.massage-bt {
+    width: 100%;
+    float: left;
+    color: #bebebe;
+    height: 110px;
+    font-size: 18px;
+    padding: 36px 20px 10px 20px;
+    background-color: #ffffff;
+    border: 0px;
+    margin-top: 30px;
+}
+
+.send_bt {
+    width: 140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.send_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #1becde;
+    padding: 7px 0px;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.send_bt a:hover {
+    background-color: #252525;
+}

@@ -1,0 +1,109 @@
+.client_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+
+#my_slider .carousel-control-prev:hover,
+#my_slider .carousel-control-next:hover,
+#my_slider .carousel-control-prev:focus,
+#my_slider .carousel-control-next:focus {
+    background-color: #19e9d9;
+    color: #ffffff;
+}
+
+#my_slider a.carousel-control-next {
+    position: absolute;
+    left: 490px;
+    top: 70%;
+    background-color: #19e9d9;
+    color: #ffffff;
+}
+
+#my_slider a.carousel-control-prev {
+    position: absolute;
+    left: 490px;
+    top: 84%;
+    background-color: #252525;
+}
+
+#my_slider .carousel-control-prev,
+#my_slider .carousel-control-next {
+    width: 65px;
+    height: 65px;
+    background-color: #252525;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.client_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    text-align: center;
+    color: #111010;
+    font-weight: bold;
+}
+
+.client_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #444443;
+    text-align: center;
+    margin: 0px;
+}
+
+.client_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+}
+
+.client_left {
+    width: 40%;
+    float: left;
+}
+
+.client_right {
+    width: 60%;
+    float: left;
+    padding-top: 100px;
+}
+
+.client_img {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.distracted_text {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #080808;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.lorem_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #444443;
+    margin: 0px;
+}
+
+.quote_icon {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+}

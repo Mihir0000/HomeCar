@@ -1,0 +1,124 @@
+
+.footer_section {
+    width: 100%;
+    float: left;
+    background-color: #252525;
+    height: auto;
+    padding-bottom: 50px;
+    box-shadow: 0px 24px 19px -1px #222223;
+    position: relative;
+}
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.footer_logo {
+    width: 80%;
+    float: left;
+    padding: 0px 0px 30px 0px;
+}
+
+.adderss_text {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.map_icon {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #d6d6d6;
+    padding-bottom: 10px;
+}
+
+.paddlin_left_0 {
+    padding-left: 15px;
+}
+
+.hiphop_text_1 {
+    width: 90%;
+    color: #d6d6d6;
+    font-size: 16px;
+    margin-left: 0px;
+}
+.Useful_text {
+    width: 50%;
+    color: #d6d6d6;
+    font-size: 16px;
+    margin-left: 0px;
+}
+
+.Enter_text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: transparent;
+    padding: 7px 10px;
+    margin-top: 10px;
+    border: 1px solid #cfcfd0;
+}
+
+input.Enter_text::placeholder {
+    color: #fff;
+}
+
+.subscribe_bt {
+    width: 170px;
+    float: left;
+    margin-top: 20px;
+}
+
+.subscribe_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #19e9d9;
+    text-align: center;
+    padding: 7px 0px;
+    text-transform: uppercase;
+}
+.social_icon {
+    width: 100%;
+    float: left;
+}
+
+.social_icon ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.social_icon li {
+    float: left;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.copyright_section {
+    width: 100%;
+    float: left;
+    background-color: #252525;
+    height: auto;
+}
+
+.copyright_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    margin-left: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.copyright_text a {
+    color: #ffffff;
+}
+
+.copyright_text a:hover {
+    color: #19e9d9;
+}
