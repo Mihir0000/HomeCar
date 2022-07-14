@@ -29,8 +29,12 @@
 }
 
 .navbar {
-  padding: 0.5rem 70px;
+  padding: 0.5rem 100px;
+ 
 }
+
+
+
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
