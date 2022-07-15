@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Image, Row } from 'react-bootstrap';
 import './Knowledge.css';
 
 const Knowledge = () => {
@@ -26,7 +26,7 @@ const Knowledge = () => {
                             style={{ border: 'none' }}
                         >
                             <Card.Link href="/#">
-                                <img
+                                <Image
                                     src="/static/img/play-icon.png"
                                     alt="play"
                                 />

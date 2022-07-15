@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Nav, Row , Card } from 'react-bootstrap';
+import { Col, Container, Nav, Row, Card, Image, Button } from 'react-bootstrap';
 import './header.css';
 
 const header = () => {
@@ -10,13 +10,13 @@ const header = () => {
     return (
         <>
             <Container fluid className="header_section">
-                <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
-                    <div className="logo">
-                        <a href="/">
-                            <img src="static/img/logo.png" alt="logo_img" />
-                        </a>
-                    </div>
-                    <button
+                <Container className="navbar navbar-expand-lg navbar-light bg-transparent">
+                    <Card.Text className="logo bg-transparent">
+                        <Card.Link href="/">
+                            <Image src="static/img/logo.png" alt="logo_img" />
+                        </Card.Link>
+                    </Card.Text>
+                    <Button
                         className="navbar-toggler"
                         type="button"
                         data-toggle="collapse"
@@ -25,11 +25,11 @@ const header = () => {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <span
-                            className="navbar-toggler-icon"
+                        <Card.Subtitle
+                            className="navbar-toggler-icon d-flex"
                             onClick={nav_toggler}
-                        ></span>
-                    </button>
+                        ></Card.Subtitle>
+                    </Button>
                     <Container
                         className="collapse navbar-collapse justify-content-end"
                         id="navbarSupportedContent"
@@ -82,7 +82,7 @@ const header = () => {
                             </Nav.Item>
                             <Nav.Item className="nav-item">
                                 <Nav.Link className="nav-link" href="/">
-                                    <img
+                                    <Image
                                         src="static/img/search-icon.png"
                                         alt="search"
                                     />
@@ -90,47 +90,55 @@ const header = () => {
                             </Nav.Item>
                         </Nav>
                     </Container>
-                </nav>
+                </Container>
 
-                <div
+                <Container
+                    fluid
                     id="main_slider"
                     className="carousel slide"
                     data-ride="carousel"
                 >
-                    <div className="carousel-inner">
+                    <Container fluid className="carousel-inner">
                         <Card className="carousel-item active bg-transparent border-0">
                             <Card.Body className="banner_section">
                                 <Container>
                                     <Row>
                                         <Col md={6}>
                                             <Card.Title className="banner_taital fs-1">
-                                                Health <br />
-                                                <span
+                                                <Card.Subtitle className="fs-1">
+                                                    Health
+                                                </Card.Subtitle>
+                                                <Card.Subtitle
+                                                    className="fs-1"
                                                     style={{ color: '#151515' }}
                                                 >
                                                     Care
-                                                </span>
+                                                </Card.Subtitle>
                                             </Card.Title>
                                             <Card.Text className="banner_text mb-3">
                                                 There are many variations of
                                                 passages of Lorem Ipsum
                                             </Card.Text>
                                             <Card.Subtitle className="btn_main">
-                                                <div className="more_bt">
-                                                    <a href="/">Contact Now</a>
-                                                </div>
-                                                <div className="contact_bt">
-                                                    <a href="/">Get A Quote</a>
-                                                </div>
+                                                <Card.Subtitle className="more_bt">
+                                                    <Card.Link href="/">
+                                                        Contact Now
+                                                    </Card.Link>
+                                                </Card.Subtitle>
+                                                <Card.Subtitle className="contact_bt">
+                                                    <Card.Link href="/">
+                                                        Get A Quote
+                                                    </Card.Link>
+                                                </Card.Subtitle>
                                             </Card.Subtitle>
                                         </Col>
                                         <Col md={6}>
-                                            <div className="image_1">
-                                                <img
+                                            <Card.Subtitle className="image_1">
+                                                <Image
                                                     src="static/img/img-1.png"
                                                     alt="img1"
                                                 />
-                                            </div>
+                                            </Card.Subtitle>
                                         </Col>
                                     </Row>
                                 </Container>
@@ -212,16 +220,16 @@ const header = () => {
                                 </div>
                             </div>
                         </div> */}
-                    </div>
-                    <a
+                    </Container>
+                    <Card.Link
                         className="carousel-control-prev"
                         href="#main_slider"
                         role="button"
                         data-slide="prev"
                     >
                         <i className="fa fa-long-arrow-left"></i>
-                    </a>
-                    <a
+                    </Card.Link>
+                    <Card.Link
                         className="carousel-control-next"
                         href="#main_slider"
                         role="button"
@@ -232,8 +240,8 @@ const header = () => {
                             className="fa fa-long-arrow-right"
                             style={{ fontSize: '24px', paddingTop: '4px' }}
                         ></i>
-                    </a>
-                </div>
+                    </Card.Link>
+                </Container>
             </Container>
         </>
     );

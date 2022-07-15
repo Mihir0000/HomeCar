@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Image, Row } from 'react-bootstrap';
 import './Health.css';
 
 const Health = ({ text }) => {
@@ -17,7 +17,7 @@ const Health = ({ text }) => {
                         <Col sm={7}>
                             <Card.Text className="image_main">
                                 <Card.Title className="main">
-                                    <img
+                                    <Image
                                         src="static/img/img-2.png"
                                         alt="Avatar"
                                         className="image"
@@ -26,7 +26,7 @@ const Health = ({ text }) => {
                                 </Card.Title>
                                 <Card.Title className="middle">
                                     <Card.Subtitle className="text">
-                                        <img
+                                        <Image
                                             src="static/img/icon-1.png"
                                             style={{ width: '40px' }}
                                             alt="icon1"
@@ -38,7 +38,7 @@ const Health = ({ text }) => {
                         <Col sm={5}>
                             <Card.Text className="image_main_1">
                                 <Card.Title className="main">
-                                    <img
+                                    <Image
                                         src="static/img/img-3.png"
                                         alt="Avatar"
                                         className="image"
@@ -47,7 +47,7 @@ const Health = ({ text }) => {
                                 </Card.Title>
                                 <Card.Title className="middle">
                                     <Card.Subtitle className="text">
-                                        <img
+                                        <Image
                                             src="static/img/icon-1.png"
                                             style={{ width: '40px' }}
                                             alt="icon1"
@@ -58,14 +58,17 @@ const Health = ({ text }) => {
                         </Col>
                     </Row>
                     <Card.Text className="getquote_bt_1">
-                        <Card.Link href="/">
+                        <Card.Link
+                            href="/"
+                            className="d-flex justify-content-around"
+                        >
                             Read More{' '}
-                            <span>
-                                <img
+                            <Card.Subtitle className="d-flex align-self-center m-2">
+                                <Image
                                     src="static/img/right-arrow.png"
                                     alt="rightarrow"
                                 />
-                            </span>
+                            </Card.Subtitle>
                         </Card.Link>
                     </Card.Text>
                 </Card>

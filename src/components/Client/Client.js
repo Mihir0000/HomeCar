@@ -1,31 +1,37 @@
 import React from 'react';
-import { Card} from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
 import './Client.css';
 
 const Client = () => {
     return (
-        <div className="client_section layout_padding">
-            <div id="my_slider" className="carousel slide" data-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <Card className='bg-transparent border-0'>
-                            <Card.Title className="client_taital fs-1">What People Say</Card.Title>
+        <Container fluid className="client_section layout_padding">
+            <Container
+                id="my_slider"
+                className="carousel slide"
+                data-ride="carousel"
+            >
+                <Container className="carousel-inner">
+                    <Container className="carousel-item active">
+                        <Card className="bg-transparent border-0">
+                            <Card.Title className="client_taital fs-1">
+                                What People Say
+                            </Card.Title>
                             <Card.Text className="client_text">
                                 It is a long established fact that a reader will
                                 be distracted{' '}
                             </Card.Text>
                             <Card.Body className="client_section_2">
-                                <div className="client_left">
-                                    <img
+                                <Card.Text className="client_left">
+                                    <Card.Img
                                         src="static/img/client-img.png"
-                                        className="client_img"
+                                        className="client_img p-3"
                                         alt="client-img"
                                     />
-                                </div>
-                                <div className="client_right">
-                                    <Card.Title className="distracted_text fs-2">
+                                </Card.Text>
+                                <Card.Title className="client_right">
+                                    <Card.Subtitle className="distracted_text fs-2">
                                         Distracted by
-                                    </Card.Title>
+                                    </Card.Subtitle>
                                     <Card.Text className="lorem_text">
                                         It is a long established fact that a
                                         reader will be distracted by the
@@ -35,15 +41,16 @@ const Client = () => {
                                         normal distribution of letters
                                     </Card.Text>
                                     <Card.Text className="quote_icon">
-                                        <img
+                                        <Card.Img
+                                            style={{ width: '8%' }}
                                             src="static/img/quote-icon.png"
                                             alt="img"
                                         />
                                     </Card.Text>
-                                </div>
+                                </Card.Title>
                             </Card.Body>
                         </Card>
-                    </div>
+                    </Container>
                     {/* <div className="carousel-item">
                         <div className="container">
                             <h1 className="client_taital">What People Say</h1>
@@ -122,8 +129,8 @@ const Client = () => {
                             </div>
                         </div>
                     </div> */}
-                </div>
-                <a
+                </Container>
+                <Card.Link
                     className="carousel-control-prev"
                     href="#my_slider"
                     role="button"
@@ -133,9 +140,10 @@ const Client = () => {
                         className="fa fa-long-arrow-left"
                         style={{ fontSize: '24px', paddingTop: '4px' }}
                     ></i>
-                </a>
-                <a
+                </Card.Link>
+                <Card.Link
                     className="carousel-control-next"
+                    style={{ marginLeft: '-1px' }}
                     href="#my_slider"
                     role="button"
                     data-slide="next"
@@ -144,9 +152,9 @@ const Client = () => {
                         className="fa fa-long-arrow-right"
                         style={{ fontSize: '24px', paddingTop: '4px' }}
                     ></i>
-                </a>
-            </div>
-        </div>
+                </Card.Link>
+            </Container>
+        </Container>
     );
 };
 

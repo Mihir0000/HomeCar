@@ -1,12 +1,14 @@
 import React from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Image, Row } from 'react-bootstrap';
 import './News.css';
 
 const News = ({ time }) => {
     return (
         <Container fluid className="news_section layout_padding">
             <Card className="container bg-transparent border-0">
-                <Card.Title className="health_taital fs-1 pb-2">Why choose {time} home care</Card.Title>
+                <Card.Title className="health_taital fs-1 pb-2">
+                    Why choose {time} home care
+                </Card.Title>
                 <Card.Text className="health_text pb-3">
                     labore et dolore magna aliqua. Ut enim ad minim veniam
                 </Card.Text>
@@ -14,12 +16,13 @@ const News = ({ time }) => {
                     <Row>
                         <Col lg={4} sm={6}>
                             <Card.Subtitle className="box_main">
-                                <div className="icon_1">
-                                    <img
+                                <Card.Subtitle className="icon_1">
+                                    <Image
+                                        style={{ width: '50px' }}
                                         src="static/img/icon-2.png"
                                         alt="icon"
                                     />
-                                </div>
+                                </Card.Subtitle>
                                 <Card.Text className="daily_text fs-4">
                                     Daily care experts
                                 </Card.Text>
@@ -27,37 +30,46 @@ const News = ({ time }) => {
                         </Col>
                         <Col lg={4} sm={6}>
                             <Card.Subtitle className="box_main active">
-                                <div className="icon_1">
-                                    <img
+                                <Card.Subtitle className="icon_1">
+                                    <Image
+                                        style={{ width: '55px' }}
                                         src="static/img/icon-3.png"
                                         alt="icon"
                                     />
-                                </div>
-                                <Card.Text className="daily_text_1 fs-4">Available 24/7</Card.Text>
+                                </Card.Subtitle>
+                                <Card.Text className="daily_text_1 fs-4">
+                                    Available 24/7
+                                </Card.Text>
                             </Card.Subtitle>
                         </Col>
                         <Col lg={4} sm={6}>
                             <Card.Subtitle className="box_main">
-                                <div className="icon_1">
-                                    <img
+                                <Card.Subtitle className="icon_1">
+                                    <Image
+                                        style={{ width: '40px' }}
                                         src="static/img/icon-4.png"
                                         alt="icon"
                                     />
-                                </div>
-                                <Card.Text className="daily_text_1 fs-4">Balanced care</Card.Text>
+                                </Card.Subtitle>
+                                <Card.Text className="daily_text_1 fs-4">
+                                    Balanced care
+                                </Card.Text>
                             </Card.Subtitle>
                         </Col>
                     </Row>
                 </Card.Body>
                 <Card.Footer className="getquote_bt bg-transparent border-0">
-                    <Card.Link href="/#">
+                    <Card.Link
+                        href="/#"
+                        className="d-flex justify-content-between"
+                    >
                         Get A Quote
-                        <span>
-                            <img
+                        <Card.Subtitle className="d-flex align-self-center m-2">
+                            <Image
                                 src="static/img/right-arrow.png"
                                 alt="right-arrow"
                             />
-                        </span>
+                        </Card.Subtitle>
                     </Card.Link>
                 </Card.Footer>
             </Card>

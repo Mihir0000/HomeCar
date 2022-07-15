@@ -6,8 +6,8 @@ const Contact = ({ author }) => {
     return (
         <Container fluid className="contact_section layout_padding">
             <Container>
-                <h1 className="contact_taital">What we do, {author}</h1>
-                <div className="news_section_2">
+                <Card.Text className="contact_taital">What we do, {author}</Card.Text>
+                <Container className="news_section_2">
                     <Row>
                         <Col md={6}>
                             <Card
@@ -91,12 +91,12 @@ const Contact = ({ author }) => {
                                     className="send_bt bg-transparent"
                                     style={{ border: 'none' }}
                                 >
-                                    <a href="/#">SEND</a>
+                                    <Card.Link href="/#">SEND</Card.Link>
                                 </Card>
                             </InputGroup>
                         </Col>
                     </Row>
-                </div>
+                </Container>
             </Container>
         </Container>
     );

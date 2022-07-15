@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Container, Form, Nav, Row } from 'react-bootstrap';
+import { Card, Col, Container, Form, Image, Nav, Row } from 'react-bootstrap';
 import './Footer.css';
 
 const Footer = ({ email, phone, address }) => {
@@ -14,7 +14,7 @@ const Footer = ({ email, phone, address }) => {
                                 style={{ border: 'none' }}
                             >
                                 <Card.Link href="index.html">
-                                    <img
+                                    <Image
                                         src="static/img/footer-logo.png"
                                         alt="footer"
                                     />
@@ -23,25 +23,28 @@ const Footer = ({ email, phone, address }) => {
                             <Card.Title className="adderss_text fs-2">
                                 Contact Us
                             </Card.Title>
-                            <Card.Text className="map_icon">
-                                <img src="static/img/map-icon.png" alt="map" />
-                                <span className="paddlin_left_0">
+                            <Card.Text className="map_icon d-flex">
+                                <Image
+                                    src="static/img/map-icon.png"
+                                    alt="map"
+                                />
+                                <Card.Subtitle className="paddlin_left_0">
                                     {address}
-                                </span>
+                                </Card.Subtitle>
                             </Card.Text>
-                            <Card.Text className="map_icon">
-                                <img
+                            <Card.Text className="map_icon d-flex">
+                                <Image
                                     src="static/img/call-icon.png"
                                     alt="call"
                                 />
-                                <span className="paddlin_left_0">{phone}</span>
+                                <Card.Subtitle className="paddlin_left_0">{phone}</Card.Subtitle>
                             </Card.Text>
-                            <Card.Text className="map_icon">
-                                <img
+                            <Card.Text className="map_icon d-flex">
+                                <Image
                                     src="static/img/mail-icon.png"
                                     alt="mail"
                                 />
-                                <span className="paddlin_left_0">{email}</span>
+                                <Card.Subtitle className="paddlin_left_0">{email}</Card.Subtitle>
                             </Card.Text>
                         </Col>
                         <Col lg={3} sm={6}>
@@ -76,7 +79,7 @@ const Footer = ({ email, phone, address }) => {
                             />
 
                             <Card.Text className="subscribe_bt">
-                                <a href="/#">Subscribe</a>
+                                <Card.Link href="/#">Subscribe</Card.Link>
                             </Card.Text>
                             <Card
                                 className="social_icon py-3 bg-transparent"
@@ -85,7 +88,7 @@ const Footer = ({ email, phone, address }) => {
                                 <Nav>
                                     <Nav.Item>
                                         <Nav.Link href="/#" className="p-1 m-0">
-                                            <img
+                                            <Image
                                                 src="static/img/fb-icon.png"
                                                 alt="fb"
                                             />
@@ -93,7 +96,7 @@ const Footer = ({ email, phone, address }) => {
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link href="/#" className="p-1 m-0">
-                                            <img
+                                            <Image
                                                 src="static/img/twitter-icon.png"
                                                 alt="twitter"
                                             />
@@ -101,7 +104,7 @@ const Footer = ({ email, phone, address }) => {
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link href="/#" className="p-1 m-0">
-                                            <img
+                                            <Image
                                                 src="static/img/linkedin-icon.png"
                                                 alt="linkedin"
                                             />
@@ -109,7 +112,7 @@ const Footer = ({ email, phone, address }) => {
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link href="/#" className="p-1 m-0">
-                                            <img
+                                            <Image
                                                 src="static/img/instagram-icon.png"
                                                 alt="instagram"
                                             />
@@ -121,7 +124,7 @@ const Footer = ({ email, phone, address }) => {
                     </Row>
                 </Container>
             </Container>
-            <div className="copyright_section">
+            <Container fluid className="copyright_section">
                 <Container>
                     <Card className="copyright_text align-self-center bg-transparent flex-row justify-content-center fs-5">
                         2022 All Rights Reserved. Design by
@@ -130,7 +133,7 @@ const Footer = ({ email, phone, address }) => {
                         </Card.Link>
                     </Card>
                 </Container>
-            </div>
+            </Container>
         </>
     );
 };
