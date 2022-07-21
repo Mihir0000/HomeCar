@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing --Contact 1`] = `
+<div
+  className="contact_section layout_padding container-fluid"
+>
+  <div
+    className="container"
+  >
+    <p
+      className="contact_taital card-text"
+    >
+      What we do, 
+    </p>
+    <div
+      className="news_section_2 container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <div
+            className="icon_main bg-transparent flex-row card"
+            style={
+              Object {
+                "border": "none",
+              }
+            }
+          >
+            <div
+              className="icon_7 p-0 card-body"
+            >
+              <img
+                alt="icon"
+                className="card-img"
+                src="static/img/icon-7.png"
+                style={
+                  Object {
+                    "width": "40%",
+                  }
+                }
+              />
+            </div>
+            <div
+              className="diabetes_text fs-2 card-title h5"
+            >
+              Diabetes and obesity Counselling
+               
+            </div>
+          </div>
+          <div
+            className="icon_main bg-transparent flex-row card"
+            style={
+              Object {
+                "border": "none",
+              }
+            }
+          >
+            <div
+              className="icon_7 card-body"
+            >
+              <img
+                alt="icon"
+                className="card-img"
+                src="static/img/icon-5.png"
+                style={
+                  Object {
+                    "width": "40%",
+                  }
+                }
+              />
+            </div>
+            <div
+              className="diabetes_text fs-2 card-title h5"
+            >
+              Obstetrics and Gynsecology
+            </div>
+          </div>
+          <div
+            className="icon_main bg-transparent flex-row card"
+            style={
+              Object {
+                "border": "none",
+              }
+            }
+          >
+            <div
+              className="icon_7 card-body"
+            >
+              <img
+                alt="icon"
+                className="card-img"
+                src="static/img/icon-6.png"
+                style={
+                  Object {
+                    "width": "40%",
+                  }
+                }
+              />
+            </div>
+            <div
+              className="diabetes_text fs-2 card-title h5"
+            >
+              Surgical and medical Oncology
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <div
+            className="contact_box d-flex flex-column input-group"
+          >
+            <span
+              className="book_text fs-2 justify-content-center bg-transparent border-0 input-group-text"
+            >
+              Book Appoinment
+            </span>
+            <div
+              className="bg-transparent card"
+              style={
+                Object {
+                  "border": "none",
+                }
+              }
+            >
+              <input
+                aria-describedby="basic-addon2"
+                aria-label="Name"
+                className="Email_text form-control"
+                placeholder="Name"
+              />
+              <input
+                aria-describedby="basic-addon2"
+                aria-label="Email"
+                className="Email_text form-control"
+                placeholder="Email"
+              />
+            </div>
+            <textarea
+              className="massage-bt form-control"
+              id="comment"
+              name="Massage"
+              placeholder="Leave a comment here"
+              rows="5"
+              style={
+                Object {
+                  "height": "100px",
+                  "width": "100%",
+                }
+              }
+            />
+            <div
+              className="send_bt bg-transparent card"
+              data-testid="contact-btn"
+              style={
+                Object {
+                  "border": "none",
+                }
+              }
+            >
+              <a
+                className="card-link"
+                href="/#"
+              >
+                SEND
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

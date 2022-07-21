@@ -87,7 +87,7 @@ const Contact = ({ author }) => {
                                     placeholder="Leave a comment here"
                                     style={{ height: '100px', width: '100%' }}
                                 />
-                                <Card
+                                <Card data-testid = 'contact-btn'
                                     className="send_bt bg-transparent"
                                     style={{ border: 'none' }}
                                 >

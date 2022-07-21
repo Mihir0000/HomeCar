@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing --news 1`] = `
+<div
+  className="news_section layout_padding container-fluid"
+>
+  <div
+    className="container bg-transparent border-0 card"
+  >
+    <div
+      className="health_taital fs-1 pb-2 card-title h5"
+    >
+      Why choose 
+       home care
+    </div>
+    <p
+      className="health_text pb-3 card-text"
+    >
+      labore et dolore magna aliqua. Ut enim ad minim veniam
+    </p>
+    <div
+      className="news_section_2 layout_padding card-body"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-4 col-sm-6"
+        >
+          <div
+            className="box_main card-subtitle h6"
+          >
+            <div
+              className="icon_1 card-subtitle h6"
+            >
+              <img
+                alt="icon"
+                className=""
+                src="static/img/icon-2.png"
+                style={
+                  Object {
+                    "width": "40px",
+                  }
+                }
+              />
+            </div>
+            <p
+              className="daily_text_1 fs-5 card-text"
+            >
+              Daily care experts
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-lg-4 col-sm-6"
+        >
+          <div
+            className="box_main active card-subtitle h6"
+          >
+            <div
+              className="icon_1 card-subtitle h6"
+            >
+              <img
+                alt="icon"
+                className=""
+                src="static/img/icon-3.png"
+                style={
+                  Object {
+                    "width": "55px",
+                  }
+                }
+              />
+            </div>
+            <p
+              className="daily_text_1 fs-5 card-text"
+            >
+              Available 24/7
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-lg-4 col-sm-6"
+        >
+          <div
+            className="box_main card-subtitle h6"
+          >
+            <div
+              className="icon_1 card-subtitle h6"
+            >
+              <img
+                alt="icon"
+                className=""
+                src="static/img/icon-4.png"
+                style={
+                  Object {
+                    "width": "38px",
+                  }
+                }
+              />
+            </div>
+            <p
+              className="daily_text_1 fs-5 card-text"
+            >
+              Balanced care
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="getquote_bt bg-transparent border-0 card-footer"
+    >
+      <a
+        className="d-flex justify-content-between card-link"
+        href="/#"
+      >
+        Get A Quote
+        <div
+          className="d-flex align-self-center m-2 card-subtitle h6"
+        >
+          <img
+            alt="right-arrow"
+            className=""
+            src="static/img/right-arrow.png"
+          />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

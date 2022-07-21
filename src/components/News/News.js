@@ -2,6 +2,8 @@ import React from 'react';
 import { Card, Col, Container, Image, Row } from 'react-bootstrap';
 import './News.css';
 
+
+
 const News = ({ time }) => {
     return (
         <Container fluid className="news_section layout_padding">
@@ -18,12 +20,12 @@ const News = ({ time }) => {
                             <Card.Subtitle className="box_main">
                                 <Card.Subtitle className="icon_1">
                                     <Image
-                                        style={{ width: '50px' }}
+                                        style={{ width: '40px' }}
                                         src="static/img/icon-2.png"
                                         alt="icon"
                                     />
                                 </Card.Subtitle>
-                                <Card.Text className="daily_text fs-4">
+                                <Card.Text className="daily_text_1 fs-5">
                                     Daily care experts
                                 </Card.Text>
                             </Card.Subtitle>
@@ -37,7 +39,7 @@ const News = ({ time }) => {
                                         alt="icon"
                                     />
                                 </Card.Subtitle>
-                                <Card.Text className="daily_text_1 fs-4">
+                                <Card.Text className="daily_text_1 fs-5">
                                     Available 24/7
                                 </Card.Text>
                             </Card.Subtitle>
@@ -46,12 +48,12 @@ const News = ({ time }) => {
                             <Card.Subtitle className="box_main">
                                 <Card.Subtitle className="icon_1">
                                     <Image
-                                        style={{ width: '40px' }}
+                                        style={{ width: '38px' }}
                                         src="static/img/icon-4.png"
                                         alt="icon"
                                     />
                                 </Card.Subtitle>
-                                <Card.Text className="daily_text_1 fs-4">
+                                <Card.Text className="daily_text_1 fs-5">
                                     Balanced care
                                 </Card.Text>
                             </Card.Subtitle>

@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing --Health 1`] = `
+<div
+  className="health_section layout_padding container-fluid"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="bg-transparent border-0 card"
+    >
+      <div
+        className="health_taital fs-1 card-title h5"
+      />
+      <p
+        className="health_text card-text"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+      </p>
+    </div>
+    <div
+      className="health_section layout_padding bg-transparent border-0 card"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-7"
+        >
+          <div
+            className="image_main card-body"
+          >
+            <div
+              className="main card-title h5"
+            >
+              <img
+                alt="Avatar"
+                className="image"
+                src="static/img/img-2.png"
+                style={
+                  Object {
+                    "width": "100%",
+                  }
+                }
+              />
+            </div>
+            <div
+              className="middle card-title h5"
+            >
+              <div
+                className="text card-subtitle h6"
+              >
+                <img
+                  alt="icon1"
+                  className=""
+                  src="static/img/icon-1.png"
+                  style={
+                    Object {
+                      "width": "40px",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-sm-5"
+        >
+          <div
+            className="image_main_1 card-body"
+          >
+            <div
+              className="main card-title h5"
+            >
+              <img
+                alt="Avatar"
+                className="image"
+                src="static/img/img-3.png"
+                style={
+                  Object {
+                    "width": "100%",
+                  }
+                }
+              />
+            </div>
+            <div
+              className="middle card-title h5"
+            >
+              <div
+                className="text card-subtitle h6"
+              >
+                <img
+                  alt="icon1"
+                  className=""
+                  src="static/img/icon-1.png"
+                  style={
+                    Object {
+                      "width": "40px",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="getquote_bt_1 card-body"
+      >
+        <a
+          className="d-flex justify-content-around card-link"
+          href="/"
+        >
+          Read More
+          <p
+            className="d-flex align-self-center m-2 card-text"
+          >
+            <img
+              alt="rightarrow"
+              className=""
+              src="static/img/right-arrow.png"
+            />
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

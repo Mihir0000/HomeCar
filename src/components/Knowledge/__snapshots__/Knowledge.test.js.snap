@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing --knowledge 1`] = `
+<div
+  className="knowledge_section layout_padding container-fluid"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="knowledge_main row"
+    >
+      <div
+        className="left_main col"
+      >
+        <div
+          className="knowledge_taital card-title h5"
+          style={
+            Object {
+              "fontSize": "40px",
+            }
+          }
+        >
+          Knowledge of center
+        </div>
+        <p
+          className="knowledge_text card-text"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+        </p>
+      </div>
+      <div
+        className="right_main d-flex align-item-center justify-content-center col"
+      >
+        <div
+          className="play_icon bg-transparent card"
+          style={
+            Object {
+              "border": "none",
+            }
+          }
+        >
+          <a
+            className="card-link"
+            href="/#"
+          >
+            <img
+              alt="play"
+              className=""
+              src="/static/img/play-icon.png"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

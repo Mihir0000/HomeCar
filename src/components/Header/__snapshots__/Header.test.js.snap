@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing --header 1`] = `
+<Fragment>
+  <Container
+    className="header_section"
+    fluid={true}
+  >
+    <Container
+      className="navbar navbar-expand-lg navbar-light bg-transparent"
+      fluid={false}
+    >
+      <CardText
+        className="logo bg-transparent"
+      >
+        <CardLink
+          href="/"
+        >
+          <Image
+            alt="logo_img"
+            fluid={false}
+            rounded={false}
+            roundedCircle={false}
+            src="static/img/logo.png"
+            thumbnail={false}
+          />
+        </CardLink>
+      </CardText>
+      <Button
+        active={false}
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        className="navbar-toggler"
+        data-target="#navbarSupportedContent"
+        data-testid="enable_btn"
+        data-toggle="collapse"
+        disabled={false}
+        type="button"
+        variant="primary"
+      >
+        <CardSubtitle
+          className="navbar-toggler-icon d-flex"
+        />
+      </Button>
+      <Container
+        className="collapse navbar-collapse justify-content-end"
+        fluid={false}
+        id="navbarSupportedContent"
+      >
+        <Nav
+          className="navbar-nav mr-auto"
+          fill={false}
+          justify={false}
+        >
+          <NavItem
+            className="nav-item active"
+          >
+            <NavLink
+              className="nav-link"
+              disabled={false}
+              href="index.html"
+            >
+              Home
+            </NavLink>
+          </NavItem>
+          <NavItem
+            className="nav-item"
+          >
+            <NavLink
+              className="nav-link"
+              disabled={false}
+              href="health.html"
+            >
+              Health
+            </NavLink>
+          </NavItem>
+          <NavItem
+            className="nav-item"
+          >
+            <NavLink
+              className="nav-link"
+              disabled={false}
+              href="medicine.html"
+            >
+              Medicine
+            </NavLink>
+          </NavItem>
+          <NavItem
+            className="nav-item"
+          >
+            <NavLink
+              className="nav-link"
+              disabled={false}
+              href="news.html"
+            >
+              News
+            </NavLink>
+          </NavItem>
+          <NavItem
+            className="nav-item"
+          >
+            <NavLink
+              className="nav-link"
+              disabled={false}
+              href="client.html"
+            >
+              Client
+            </NavLink>
+          </NavItem>
+          <NavItem
+            className="nav-item"
+          >
+            <NavLink
+              className="nav-link"
+              disabled={false}
+              href="contact.html"
+            >
+              Contact Us
+            </NavLink>
+          </NavItem>
+          <NavItem
+            className="nav-item"
+          >
+            <NavLink
+              className="nav-link"
+              disabled={false}
+              href="/"
+            >
+              <Image
+                alt="search"
+                fluid={false}
+                rounded={false}
+                roundedCircle={false}
+                src="static/img/search-icon.png"
+                thumbnail={false}
+              />
+            </NavLink>
+          </NavItem>
+        </Nav>
+      </Container>
+    </Container>
+    <Container
+      className="carousel slide"
+      data-ride="carousel"
+      fluid={true}
+      id="main_slider"
+    >
+      <Container
+        className="carousel-inner"
+        fluid={true}
+      >
+        <Card
+          body={false}
+          className="carousel-item active bg-transparent border-0"
+        >
+          <CardBody
+            className="banner_section"
+          >
+            <Container
+              fluid={false}
+            >
+              <Row>
+                <Col
+                  md={6}
+                >
+                  <CardTitle
+                    className="banner_taital fs-1"
+                  >
+                    <CardSubtitle
+                      className="fs-1"
+                    >
+                      Health
+                    </CardSubtitle>
+                    <CardSubtitle
+                      className="fs-1"
+                      style={
+                        Object {
+                          "color": "#151515",
+                        }
+                      }
+                    >
+                      Care
+                    </CardSubtitle>
+                  </CardTitle>
+                  <CardText
+                    className="banner_text mb-3"
+                  >
+                    There are many variations of passages of Lorem Ipsum
+                  </CardText>
+                  <CardSubtitle
+                    className="btn_main"
+                  >
+                    <CardSubtitle
+                      className="more_bt"
+                    >
+                      <CardLink
+                        href="/"
+                        role="contact_btn"
+                      >
+                        Contact Now
+                      </CardLink>
+                    </CardSubtitle>
+                    <CardSubtitle
+                      className="contact_bt"
+                    >
+                      <CardLink
+                        href="/"
+                      >
+                        Get A Quote
+                      </CardLink>
+                    </CardSubtitle>
+                  </CardSubtitle>
+                </Col>
+                <Col
+                  md={6}
+                >
+                  <CardSubtitle
+                    className="image_1"
+                  >
+                    <Image
+                      alt="img1"
+                      fluid={false}
+                      rounded={false}
+                      roundedCircle={false}
+                      src="static/img/img-1.png"
+                      thumbnail={false}
+                    />
+                  </CardSubtitle>
+                </Col>
+              </Row>
+            </Container>
+          </CardBody>
+        </Card>
+      </Container>
+      <CardLink
+        className="carousel-control-prev"
+        data-slide="prev"
+        href="#main_slider"
+        role="button"
+      >
+        <i
+          className="fa fa-long-arrow-left"
+        />
+      </CardLink>
+      <CardLink
+        className="carousel-control-next"
+        data-slide="next"
+        href="#main_slider"
+        role="button"
+        style={
+          Object {
+            "fontSize": "24px",
+            "paddingTop": "4px",
+          }
+        }
+      >
+        <i
+          className="fa fa-long-arrow-right"
+          style={
+            Object {
+              "fontSize": "24px",
+              "paddingTop": "4px",
+            }
+          }
+        />
+      </CardLink>
+    </Container>
+  </Container>
+</Fragment>
+`;

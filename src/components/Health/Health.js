@@ -6,16 +6,20 @@ const Health = ({ text }) => {
     return (
         <Container fluid className="health_section layout_padding">
             <Container>
-                <Card.Title className="health_taital fs-1">{text}</Card.Title>
-                <Card.Text className="health_text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis
-                </Card.Text>
+                <Card className="bg-transparent border-0">
+                    <Card.Title className="health_taital fs-1">
+                        {text}
+                    </Card.Title>
+                    <Card.Text className="health_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis
+                    </Card.Text>
+                </Card>
                 <Card className="health_section layout_padding bg-transparent border-0">
                     <Row>
                         <Col sm={7}>
-                            <Card.Text className="image_main">
+                            <Card.Body className="image_main">
                                 <Card.Title className="main">
                                     <Image
                                         src="static/img/img-2.png"
@@ -33,10 +37,10 @@ const Health = ({ text }) => {
                                         />
                                     </Card.Subtitle>
                                 </Card.Title>
-                            </Card.Text>
+                            </Card.Body>
                         </Col>
                         <Col sm={5}>
-                            <Card.Text className="image_main_1">
+                            <Card.Body className="image_main_1">
                                 <Card.Title className="main">
                                     <Image
                                         src="static/img/img-3.png"
@@ -54,23 +58,23 @@ const Health = ({ text }) => {
                                         />
                                     </Card.Subtitle>
                                 </Card.Title>
-                            </Card.Text>
+                            </Card.Body>
                         </Col>
                     </Row>
-                    <Card.Text className="getquote_bt_1">
+                    <Card.Body className="getquote_bt_1">
                         <Card.Link
                             href="/"
                             className="d-flex justify-content-around"
                         >
-                            Read More{' '}
-                            <Card.Subtitle className="d-flex align-self-center m-2">
+                            Read More
+                            <Card.Text className="d-flex align-self-center m-2">
                                 <Image
                                     src="static/img/right-arrow.png"
                                     alt="rightarrow"
                                 />
-                            </Card.Subtitle>
+                            </Card.Text>
                         </Card.Link>
-                    </Card.Text>
+                    </Card.Body>
                 </Card>
             </Container>
         </Container>

@@ -1,0 +1,489 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should be components with footer 1`] = `
+<Fragment>
+  <Container
+    className="footer_section layout_padding"
+    fluid={true}
+  >
+    <Container
+      fluid={false}
+    >
+      <Row>
+        <Col
+          lg={3}
+          sm={6}
+        >
+          <Card
+            body={false}
+            className="footer_logo bg-transparent"
+            style={
+              Object {
+                "border": "none",
+              }
+            }
+          >
+            <CardLink
+              href="index.html"
+            >
+              <Image
+                alt="footer"
+                fluid={false}
+                rounded={false}
+                roundedCircle={false}
+                src="static/img/footer-logo.png"
+                thumbnail={false}
+              />
+            </CardLink>
+          </Card>
+          <CardText
+            className="adderss_text fs-2"
+          >
+            Contact Us
+          </CardText>
+          <CardTitle
+            className="map_icon d-flex"
+          >
+            <Image
+              alt="map"
+              fluid={false}
+              rounded={false}
+              roundedCircle={false}
+              src="static/img/map-icon.png"
+              thumbnail={false}
+            />
+            <CardSubtitle
+              className="paddlin_left_0"
+            >
+              madhyamgram
+            </CardSubtitle>
+          </CardTitle>
+          <CardTitle
+            className="map_icon d-flex"
+          >
+            <Image
+              alt="call"
+              fluid={false}
+              rounded={false}
+              roundedCircle={false}
+              src="static/img/call-icon.png"
+              thumbnail={false}
+            />
+            <CardSubtitle
+              className="paddlin_left_0"
+            >
+              1234567890
+            </CardSubtitle>
+          </CardTitle>
+          <CardTitle
+            className="map_icon d-flex"
+          >
+            <Image
+              alt="mail"
+              fluid={false}
+              rounded={false}
+              roundedCircle={false}
+              src="static/img/mail-icon.png"
+              thumbnail={false}
+            />
+            <CardSubtitle
+              className="paddlin_left_0"
+            >
+              abc@gmail.com
+            </CardSubtitle>
+          </CardTitle>
+        </Col>
+        <Col
+          lg={3}
+          sm={6}
+        >
+          <CardText
+            className="adderss_text fs-2"
+          >
+            Doctors
+          </CardText>
+          <CardText
+            className="hiphop_text_1"
+          >
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
+          </CardText>
+        </Col>
+        <Col
+          lg={3}
+          sm={6}
+        >
+          <CardText
+            className="adderss_text fs-2"
+          >
+            Useful Links
+          </CardText>
+          <CardText
+            className="Useful_text"
+          >
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered ,
+          </CardText>
+        </Col>
+        <Col
+          lg={3}
+          sm={6}
+        >
+          <CardText
+            className="adderss_text fs-2"
+          >
+            Newsletter
+          </CardText>
+          <FormControl
+            aria-describedby="basic-addon2"
+            aria-label="Enter Your Email"
+            className="Enter_text bg-transparent"
+            placeholder="Enter Your Email"
+          />
+          <CardText
+            className="subscribe_bt"
+          >
+            <CardLink
+              href="/#"
+            >
+              Subscribe
+            </CardLink>
+          </CardText>
+          <Card
+            body={false}
+            className="social_icon py-3 bg-transparent"
+            style={
+              Object {
+                "border": "none",
+              }
+            }
+          >
+            <Nav
+              fill={false}
+              justify={false}
+            >
+              <NavItem>
+                <NavLink
+                  className="p-1 m-0"
+                  disabled={false}
+                  href="/#"
+                >
+                  <Image
+                    alt="fb"
+                    fluid={false}
+                    rounded={false}
+                    roundedCircle={false}
+                    src="static/img/fb-icon.png"
+                    thumbnail={false}
+                  />
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className="p-1 m-0"
+                  disabled={false}
+                  href="/#"
+                >
+                  <Image
+                    alt="twitter"
+                    fluid={false}
+                    rounded={false}
+                    roundedCircle={false}
+                    src="static/img/twitter-icon.png"
+                    thumbnail={false}
+                  />
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className="p-1 m-0"
+                  disabled={false}
+                  href="/#"
+                >
+                  <Image
+                    alt="linkedin"
+                    fluid={false}
+                    rounded={false}
+                    roundedCircle={false}
+                    src="static/img/linkedin-icon.png"
+                    thumbnail={false}
+                  />
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className="p-1 m-0"
+                  disabled={false}
+                  href="/#"
+                >
+                  <Image
+                    alt="instagram"
+                    fluid={false}
+                    rounded={false}
+                    roundedCircle={false}
+                    src="static/img/instagram-icon.png"
+                    thumbnail={false}
+                  />
+                </NavLink>
+              </NavItem>
+            </Nav>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
+  </Container>
+  <Container
+    className="copyright_section"
+    fluid={true}
+  >
+    <Container
+      fluid={false}
+    >
+      <Card
+        body={false}
+        className="copyright_text align-self-center bg-transparent flex-row justify-content-center fs-5"
+      >
+        2022 All Rights Reserved. Design by
+        <CardLink
+          href="https://html.design"
+        >
+          Free html Templates
+        </CardLink>
+      </Card>
+    </Container>
+  </Container>
+</Fragment>
+`;
+
+exports[`snapshot testing --Footer 1`] = `
+Array [
+  <div
+    className="footer_section layout_padding container-fluid"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-3 col-sm-6"
+        >
+          <div
+            className="footer_logo bg-transparent card"
+            style={
+              Object {
+                "border": "none",
+              }
+            }
+          >
+            <a
+              className="card-link"
+              href="index.html"
+            >
+              <img
+                alt="footer"
+                className=""
+                src="static/img/footer-logo.png"
+              />
+            </a>
+          </div>
+          <p
+            className="adderss_text fs-2 card-text"
+          >
+            Contact Us
+          </p>
+          <div
+            className="map_icon d-flex card-title h5"
+          >
+            <img
+              alt="map"
+              className=""
+              src="static/img/map-icon.png"
+            />
+            <div
+              className="paddlin_left_0 card-subtitle h6"
+            />
+          </div>
+          <div
+            className="map_icon d-flex card-title h5"
+          >
+            <img
+              alt="call"
+              className=""
+              src="static/img/call-icon.png"
+            />
+            <div
+              className="paddlin_left_0 card-subtitle h6"
+            />
+          </div>
+          <div
+            className="map_icon d-flex card-title h5"
+          >
+            <img
+              alt="mail"
+              className=""
+              src="static/img/mail-icon.png"
+            />
+            <div
+              className="paddlin_left_0 card-subtitle h6"
+            />
+          </div>
+        </div>
+        <div
+          className="col-lg-3 col-sm-6"
+        >
+          <p
+            className="adderss_text fs-2 card-text"
+          >
+            Doctors
+          </p>
+          <p
+            className="hiphop_text_1 card-text"
+          >
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
+          </p>
+        </div>
+        <div
+          className="col-lg-3 col-sm-6"
+        >
+          <p
+            className="adderss_text fs-2 card-text"
+          >
+            Useful Links
+          </p>
+          <p
+            className="Useful_text card-text"
+          >
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered ,
+          </p>
+        </div>
+        <div
+          className="col-lg-3 col-sm-6"
+        >
+          <p
+            className="adderss_text fs-2 card-text"
+          >
+            Newsletter
+          </p>
+          <input
+            aria-describedby="basic-addon2"
+            aria-label="Enter Your Email"
+            className="Enter_text bg-transparent form-control"
+            placeholder="Enter Your Email"
+          />
+          <p
+            className="subscribe_bt card-text"
+          >
+            <a
+              className="card-link"
+              href="/#"
+            >
+              Subscribe
+            </a>
+          </p>
+          <div
+            className="social_icon py-3 bg-transparent card"
+            style={
+              Object {
+                "border": "none",
+              }
+            }
+          >
+            <div
+              className="nav"
+              onKeyDown={[Function]}
+            >
+              <div
+                className="nav-item"
+              >
+                <a
+                  className="p-1 m-0 nav-link"
+                  data-rr-ui-event-key="/#"
+                  disabled={false}
+                  href="/#"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="fb"
+                    className=""
+                    src="static/img/fb-icon.png"
+                  />
+                </a>
+              </div>
+              <div
+                className="nav-item"
+              >
+                <a
+                  className="p-1 m-0 nav-link"
+                  data-rr-ui-event-key="/#"
+                  disabled={false}
+                  href="/#"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="twitter"
+                    className=""
+                    src="static/img/twitter-icon.png"
+                  />
+                </a>
+              </div>
+              <div
+                className="nav-item"
+              >
+                <a
+                  className="p-1 m-0 nav-link"
+                  data-rr-ui-event-key="/#"
+                  disabled={false}
+                  href="/#"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="linkedin"
+                    className=""
+                    src="static/img/linkedin-icon.png"
+                  />
+                </a>
+              </div>
+              <div
+                className="nav-item"
+              >
+                <a
+                  className="p-1 m-0 nav-link"
+                  data-rr-ui-event-key="/#"
+                  disabled={false}
+                  href="/#"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="instagram"
+                    className=""
+                    src="static/img/instagram-icon.png"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="copyright_section container-fluid"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="copyright_text align-self-center bg-transparent flex-row justify-content-center fs-5 card"
+      >
+        2022 All Rights Reserved. Design by
+        <a
+          className="card-link"
+          href="https://html.design"
+        >
+          Free html Templates
+        </a>
+      </div>
+    </div>
+  </div>,
+]
+`;

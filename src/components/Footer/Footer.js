@@ -20,10 +20,10 @@ const Footer = ({ email, phone, address }) => {
                                     />
                                 </Card.Link>
                             </Card>
-                            <Card.Title className="adderss_text fs-2">
+                            <Card.Text className="adderss_text fs-2">
                                 Contact Us
-                            </Card.Title>
-                            <Card.Text className="map_icon d-flex">
+                            </Card.Text>
+                            <Card.Title className="map_icon d-flex">
                                 <Image
                                     src="static/img/map-icon.png"
                                     alt="map"
@@ -31,21 +31,25 @@ const Footer = ({ email, phone, address }) => {
                                 <Card.Subtitle className="paddlin_left_0">
                                     {address}
                                 </Card.Subtitle>
-                            </Card.Text>
-                            <Card.Text className="map_icon d-flex">
+                            </Card.Title>
+                            <Card.Title className="map_icon d-flex">
                                 <Image
                                     src="static/img/call-icon.png"
                                     alt="call"
                                 />
-                                <Card.Subtitle className="paddlin_left_0">{phone}</Card.Subtitle>
-                            </Card.Text>
-                            <Card.Text className="map_icon d-flex">
+                                <Card.Subtitle className="paddlin_left_0">
+                                    {phone}
+                                </Card.Subtitle>
+                            </Card.Title>
+                            <Card.Title className="map_icon d-flex">
                                 <Image
                                     src="static/img/mail-icon.png"
                                     alt="mail"
                                 />
-                                <Card.Subtitle className="paddlin_left_0">{email}</Card.Subtitle>
-                            </Card.Text>
+                                <Card.Subtitle className="paddlin_left_0">
+                                    {email}
+                                </Card.Subtitle>
+                            </Card.Title>
                         </Col>
                         <Col lg={3} sm={6}>
                             <Card.Text className="adderss_text fs-2">
@@ -72,7 +76,7 @@ const Footer = ({ email, phone, address }) => {
                                 Newsletter
                             </Card.Text>
                             <Form.Control
-                                className="Enter_text"
+                                className="Enter_text bg-transparent"
                                 placeholder="Enter Your Email"
                                 aria-label="Enter Your Email"
                                 aria-describedby="basic-addon2"

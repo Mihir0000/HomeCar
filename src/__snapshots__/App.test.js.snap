@@ -1,0 +1,1169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing --app 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="header_section container-fluid"
+  >
+    <div
+      className="navbar navbar-expand-lg navbar-light bg-transparent container"
+    >
+      <p
+        className="logo bg-transparent card-text"
+      >
+        <a
+          className="card-link"
+          href="/"
+        >
+          <img
+            alt="logo_img"
+            className=""
+            src="static/img/logo.png"
+          />
+        </a>
+      </p>
+      <button
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        className="navbar-toggler btn btn-primary"
+        data-target="#navbarSupportedContent"
+        data-testid="enable_btn"
+        data-toggle="collapse"
+        disabled={false}
+        type="button"
+      >
+        <div
+          className="navbar-toggler-icon d-flex card-subtitle h6"
+        />
+      </button>
+      <div
+        className="collapse navbar-collapse justify-content-end container"
+        id="navbarSupportedContent"
+      >
+        <div
+          className="navbar-nav mr-auto nav"
+          onKeyDown={[Function]}
+        >
+          <div
+            className="nav-item active nav-item"
+          >
+            <a
+              className="nav-link nav-link"
+              data-rr-ui-event-key="index.html"
+              disabled={false}
+              href="index.html"
+              onClick={[Function]}
+            >
+              Home
+            </a>
+          </div>
+          <div
+            className="nav-item nav-item"
+          >
+            <a
+              className="nav-link nav-link"
+              data-rr-ui-event-key="health.html"
+              disabled={false}
+              href="health.html"
+              onClick={[Function]}
+            >
+              Health
+            </a>
+          </div>
+          <div
+            className="nav-item nav-item"
+          >
+            <a
+              className="nav-link nav-link"
+              data-rr-ui-event-key="medicine.html"
+              disabled={false}
+              href="medicine.html"
+              onClick={[Function]}
+            >
+              Medicine
+            </a>
+          </div>
+          <div
+            className="nav-item nav-item"
+          >
+            <a
+              className="nav-link nav-link"
+              data-rr-ui-event-key="news.html"
+              disabled={false}
+              href="news.html"
+              onClick={[Function]}
+            >
+              News
+            </a>
+          </div>
+          <div
+            className="nav-item nav-item"
+          >
+            <a
+              className="nav-link nav-link"
+              data-rr-ui-event-key="client.html"
+              disabled={false}
+              href="client.html"
+              onClick={[Function]}
+            >
+              Client
+            </a>
+          </div>
+          <div
+            className="nav-item nav-item"
+          >
+            <a
+              className="nav-link nav-link"
+              data-rr-ui-event-key="contact.html"
+              disabled={false}
+              href="contact.html"
+              onClick={[Function]}
+            >
+              Contact Us
+            </a>
+          </div>
+          <div
+            className="nav-item nav-item"
+          >
+            <a
+              className="nav-link nav-link"
+              data-rr-ui-event-key="/"
+              disabled={false}
+              href="/"
+              onClick={[Function]}
+            >
+              <img
+                alt="search"
+                className=""
+                src="static/img/search-icon.png"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="carousel slide container-fluid"
+      data-ride="carousel"
+      id="main_slider"
+    >
+      <div
+        className="carousel-inner container-fluid"
+      >
+        <div
+          className="carousel-item active bg-transparent border-0 card"
+        >
+          <div
+            className="banner_section card-body"
+          >
+            <div
+              className="container"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="banner_taital fs-1 card-title h5"
+                  >
+                    <div
+                      className="fs-1 card-subtitle h6"
+                    >
+                      Health
+                    </div>
+                    <div
+                      className="fs-1 card-subtitle h6"
+                      style={
+                        Object {
+                          "color": "#151515",
+                        }
+                      }
+                    >
+                      Care
+                    </div>
+                  </div>
+                  <p
+                    className="banner_text mb-3 card-text"
+                  >
+                    There are many variations of passages of Lorem Ipsum
+                  </p>
+                  <div
+                    className="btn_main card-subtitle h6"
+                  >
+                    <div
+                      className="more_bt card-subtitle h6"
+                    >
+                      <a
+                        className="card-link"
+                        href="/"
+                        role="contact_btn"
+                      >
+                        Contact Now
+                      </a>
+                    </div>
+                    <div
+                      className="contact_bt card-subtitle h6"
+                    >
+                      <a
+                        className="card-link"
+                        href="/"
+                      >
+                        Get A Quote
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="image_1 card-subtitle h6"
+                  >
+                    <img
+                      alt="img1"
+                      className=""
+                      src="static/img/img-1.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        className="carousel-control-prev card-link"
+        data-slide="prev"
+        href="#main_slider"
+        role="button"
+      >
+        <i
+          className="fa fa-long-arrow-left"
+        />
+      </a>
+      <a
+        className="carousel-control-next card-link"
+        data-slide="next"
+        href="#main_slider"
+        role="button"
+        style={
+          Object {
+            "fontSize": "24px",
+            "paddingTop": "4px",
+          }
+        }
+      >
+        <i
+          className="fa fa-long-arrow-right"
+          style={
+            Object {
+              "fontSize": "24px",
+              "paddingTop": "4px",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="health_section layout_padding container-fluid"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="bg-transparent border-0 card"
+      >
+        <div
+          className="health_taital fs-1 card-title h5"
+        >
+          Best Of Health care for you
+        </div>
+        <p
+          className="health_text card-text"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        </p>
+      </div>
+      <div
+        className="health_section layout_padding bg-transparent border-0 card"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-sm-7"
+          >
+            <div
+              className="image_main card-body"
+            >
+              <div
+                className="main card-title h5"
+              >
+                <img
+                  alt="Avatar"
+                  className="image"
+                  src="static/img/img-2.png"
+                  style={
+                    Object {
+                      "width": "100%",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="middle card-title h5"
+              >
+                <div
+                  className="text card-subtitle h6"
+                >
+                  <img
+                    alt="icon1"
+                    className=""
+                    src="static/img/icon-1.png"
+                    style={
+                      Object {
+                        "width": "40px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-sm-5"
+          >
+            <div
+              className="image_main_1 card-body"
+            >
+              <div
+                className="main card-title h5"
+              >
+                <img
+                  alt="Avatar"
+                  className="image"
+                  src="static/img/img-3.png"
+                  style={
+                    Object {
+                      "width": "100%",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="middle card-title h5"
+              >
+                <div
+                  className="text card-subtitle h6"
+                >
+                  <img
+                    alt="icon1"
+                    className=""
+                    src="static/img/icon-1.png"
+                    style={
+                      Object {
+                        "width": "40px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="getquote_bt_1 card-body"
+        >
+          <a
+            className="d-flex justify-content-around card-link"
+            href="/"
+          >
+            Read More
+            <p
+              className="d-flex align-self-center m-2 card-text"
+            >
+              <img
+                alt="rightarrow"
+                className=""
+                src="static/img/right-arrow.png"
+              />
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="knowledge_section layout_padding container-fluid"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="knowledge_main row"
+      >
+        <div
+          className="left_main col"
+        >
+          <div
+            className="knowledge_taital card-title h5"
+            style={
+              Object {
+                "fontSize": "40px",
+              }
+            }
+          >
+            Knowledge of center
+          </div>
+          <p
+            className="knowledge_text card-text"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+          </p>
+        </div>
+        <div
+          className="right_main d-flex align-item-center justify-content-center col"
+        >
+          <div
+            className="play_icon bg-transparent card"
+            style={
+              Object {
+                "border": "none",
+              }
+            }
+          >
+            <a
+              className="card-link"
+              href="/#"
+            >
+              <img
+                alt="play"
+                className=""
+                src="/static/img/play-icon.png"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="news_section layout_padding container-fluid"
+  >
+    <div
+      className="container bg-transparent border-0 card"
+    >
+      <div
+        className="health_taital fs-1 pb-2 card-title h5"
+      >
+        Why choose 
+        24 X 7
+         home care
+      </div>
+      <p
+        className="health_text pb-3 card-text"
+      >
+        labore et dolore magna aliqua. Ut enim ad minim veniam
+      </p>
+      <div
+        className="news_section_2 layout_padding card-body"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-4 col-sm-6"
+          >
+            <div
+              className="box_main card-subtitle h6"
+            >
+              <div
+                className="icon_1 card-subtitle h6"
+              >
+                <img
+                  alt="icon"
+                  className=""
+                  src="static/img/icon-2.png"
+                  style={
+                    Object {
+                      "width": "40px",
+                    }
+                  }
+                />
+              </div>
+              <p
+                className="daily_text_1 fs-5 card-text"
+              >
+                Daily care experts
+              </p>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-sm-6"
+          >
+            <div
+              className="box_main active card-subtitle h6"
+            >
+              <div
+                className="icon_1 card-subtitle h6"
+              >
+                <img
+                  alt="icon"
+                  className=""
+                  src="static/img/icon-3.png"
+                  style={
+                    Object {
+                      "width": "55px",
+                    }
+                  }
+                />
+              </div>
+              <p
+                className="daily_text_1 fs-5 card-text"
+              >
+                Available 24/7
+              </p>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-sm-6"
+          >
+            <div
+              className="box_main card-subtitle h6"
+            >
+              <div
+                className="icon_1 card-subtitle h6"
+              >
+                <img
+                  alt="icon"
+                  className=""
+                  src="static/img/icon-4.png"
+                  style={
+                    Object {
+                      "width": "38px",
+                    }
+                  }
+                />
+              </div>
+              <p
+                className="daily_text_1 fs-5 card-text"
+              >
+                Balanced care
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="getquote_bt bg-transparent border-0 card-footer"
+      >
+        <a
+          className="d-flex justify-content-between card-link"
+          href="/#"
+        >
+          Get A Quote
+          <div
+            className="d-flex align-self-center m-2 card-subtitle h6"
+          >
+            <img
+              alt="right-arrow"
+              className=""
+              src="static/img/right-arrow.png"
+            />
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="contact_section layout_padding container-fluid"
+  >
+    <div
+      className="container"
+    >
+      <p
+        className="contact_taital card-text"
+      >
+        What we do, 
+        Mihir
+      </p>
+      <div
+        className="news_section_2 container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-6"
+          >
+            <div
+              className="icon_main bg-transparent flex-row card"
+              style={
+                Object {
+                  "border": "none",
+                }
+              }
+            >
+              <div
+                className="icon_7 p-0 card-body"
+              >
+                <img
+                  alt="icon"
+                  className="card-img"
+                  src="static/img/icon-7.png"
+                  style={
+                    Object {
+                      "width": "40%",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="diabetes_text fs-2 card-title h5"
+              >
+                Diabetes and obesity Counselling
+                 
+              </div>
+            </div>
+            <div
+              className="icon_main bg-transparent flex-row card"
+              style={
+                Object {
+                  "border": "none",
+                }
+              }
+            >
+              <div
+                className="icon_7 card-body"
+              >
+                <img
+                  alt="icon"
+                  className="card-img"
+                  src="static/img/icon-5.png"
+                  style={
+                    Object {
+                      "width": "40%",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="diabetes_text fs-2 card-title h5"
+              >
+                Obstetrics and Gynsecology
+              </div>
+            </div>
+            <div
+              className="icon_main bg-transparent flex-row card"
+              style={
+                Object {
+                  "border": "none",
+                }
+              }
+            >
+              <div
+                className="icon_7 card-body"
+              >
+                <img
+                  alt="icon"
+                  className="card-img"
+                  src="static/img/icon-6.png"
+                  style={
+                    Object {
+                      "width": "40%",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="diabetes_text fs-2 card-title h5"
+              >
+                Surgical and medical Oncology
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <div
+              className="contact_box d-flex flex-column input-group"
+            >
+              <span
+                className="book_text fs-2 justify-content-center bg-transparent border-0 input-group-text"
+              >
+                Book Appoinment
+              </span>
+              <div
+                className="bg-transparent card"
+                style={
+                  Object {
+                    "border": "none",
+                  }
+                }
+              >
+                <input
+                  aria-describedby="basic-addon2"
+                  aria-label="Name"
+                  className="Email_text form-control"
+                  placeholder="Name"
+                />
+                <input
+                  aria-describedby="basic-addon2"
+                  aria-label="Email"
+                  className="Email_text form-control"
+                  placeholder="Email"
+                />
+              </div>
+              <textarea
+                className="massage-bt form-control"
+                id="comment"
+                name="Massage"
+                placeholder="Leave a comment here"
+                rows="5"
+                style={
+                  Object {
+                    "height": "100px",
+                    "width": "100%",
+                  }
+                }
+              />
+              <div
+                className="send_bt bg-transparent card"
+                data-testid="contact-btn"
+                style={
+                  Object {
+                    "border": "none",
+                  }
+                }
+              >
+                <a
+                  className="card-link"
+                  href="/#"
+                >
+                  SEND
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="client_section layout_padding container-fluid"
+  >
+    <div
+      className="carousel slide container"
+      data-ride="carousel"
+      id="my_slider"
+    >
+      <div
+        className="carousel-inner container"
+      >
+        <div
+          className="carousel-item active container"
+        >
+          <div
+            className="bg-transparent border-0 card"
+          >
+            <div
+              className="client_taital fs-1 card-title h5"
+            >
+              What People Say
+            </div>
+            <p
+              className="client_text card-text"
+            >
+              It is a long established fact that a reader will be distracted
+               
+            </p>
+            <div
+              className="client_section_2 card-body"
+            >
+              <p
+                className="client_left card-text"
+              >
+                <img
+                  alt="client-img"
+                  className="card-img client_img p-3"
+                  src="static/img/client-img.png"
+                />
+              </p>
+              <div
+                className="client_right card-title h5"
+              >
+                <div
+                  className="distracted_text fs-2 card-subtitle h6"
+                >
+                  Distracted by
+                </div>
+                <p
+                  className="lorem_text card-text"
+                >
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+                </p>
+                <p
+                  className="quote_icon card-text"
+                >
+                  <img
+                    alt="img"
+                    className="card-img"
+                    src="static/img/quote-icon.png"
+                    style={
+                      Object {
+                        "width": "8%",
+                      }
+                    }
+                  />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        className="carousel-control-prev card-link"
+        data-slide="prev"
+        href="#my_slider"
+        role="button"
+      >
+        <i
+          className="fa fa-long-arrow-left"
+          style={
+            Object {
+              "fontSize": "24px",
+              "paddingTop": "4px",
+            }
+          }
+        />
+      </a>
+      <a
+        className="carousel-control-next card-link"
+        data-slide="next"
+        href="#my_slider"
+        role="button"
+        style={
+          Object {
+            "marginLeft": "-1px",
+          }
+        }
+      >
+        <i
+          className="fa fa-long-arrow-right"
+          style={
+            Object {
+              "fontSize": "24px",
+              "paddingTop": "4px",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="d-flex card"
+      style={
+        Object {
+          "margin": "0 auto",
+          "width": "35%",
+        }
+      }
+    >
+      <h3
+        className="d-flex justify-content-center"
+      >
+        Contact
+      </h3>
+      <form
+        action=""
+        className="d-flex justify-content-center p-5 w-100 flex-column "
+        data-testid="valid-form"
+      >
+        <input
+          data-testid="input-name"
+          onChange={[Function]}
+          placeholder="Name"
+          required={true}
+          type="text"
+          value=""
+        />
+        <input
+          data-testid="input-email"
+          onChange={[Function]}
+          placeholder="Email"
+          required={true}
+          type="email"
+          value=""
+        />
+        <input
+          placeholder="Message"
+          type="text"
+        />
+        <input
+          data-testid="input-checkbox-checked"
+          type="checkbox"
+        />
+        <button
+          className="btn"
+          data-testid="submit-btn"
+          onClick={[Function]}
+          type="submit"
+        >
+          Click me
+        </button>
+      </form>
+    </div>
+  </div>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Click Me
+  </button>
+  <div
+    className="footer_section layout_padding container-fluid"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-3 col-sm-6"
+        >
+          <div
+            className="footer_logo bg-transparent card"
+            style={
+              Object {
+                "border": "none",
+              }
+            }
+          >
+            <a
+              className="card-link"
+              href="index.html"
+            >
+              <img
+                alt="footer"
+                className=""
+                src="static/img/footer-logo.png"
+              />
+            </a>
+          </div>
+          <p
+            className="adderss_text fs-2 card-text"
+          >
+            Contact Us
+          </p>
+          <div
+            className="map_icon d-flex card-title h5"
+          >
+            <img
+              alt="map"
+              className=""
+              src="static/img/map-icon.png"
+            />
+            <div
+              className="paddlin_left_0 card-subtitle h6"
+            >
+              Kolkata
+            </div>
+          </div>
+          <div
+            className="map_icon d-flex card-title h5"
+          >
+            <img
+              alt="call"
+              className=""
+              src="static/img/call-icon.png"
+            />
+            <div
+              className="paddlin_left_0 card-subtitle h6"
+            >
+              9876543210
+            </div>
+          </div>
+          <div
+            className="map_icon d-flex card-title h5"
+          >
+            <img
+              alt="mail"
+              className=""
+              src="static/img/mail-icon.png"
+            />
+            <div
+              className="paddlin_left_0 card-subtitle h6"
+            >
+              mihirbaidyasde@gmail.com
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-lg-3 col-sm-6"
+        >
+          <p
+            className="adderss_text fs-2 card-text"
+          >
+            Doctors
+          </p>
+          <p
+            className="hiphop_text_1 card-text"
+          >
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
+          </p>
+        </div>
+        <div
+          className="col-lg-3 col-sm-6"
+        >
+          <p
+            className="adderss_text fs-2 card-text"
+          >
+            Useful Links
+          </p>
+          <p
+            className="Useful_text card-text"
+          >
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered ,
+          </p>
+        </div>
+        <div
+          className="col-lg-3 col-sm-6"
+        >
+          <p
+            className="adderss_text fs-2 card-text"
+          >
+            Newsletter
+          </p>
+          <input
+            aria-describedby="basic-addon2"
+            aria-label="Enter Your Email"
+            className="Enter_text bg-transparent form-control"
+            placeholder="Enter Your Email"
+          />
+          <p
+            className="subscribe_bt card-text"
+          >
+            <a
+              className="card-link"
+              href="/#"
+            >
+              Subscribe
+            </a>
+          </p>
+          <div
+            className="social_icon py-3 bg-transparent card"
+            style={
+              Object {
+                "border": "none",
+              }
+            }
+          >
+            <div
+              className="nav"
+              onKeyDown={[Function]}
+            >
+              <div
+                className="nav-item"
+              >
+                <a
+                  className="p-1 m-0 nav-link"
+                  data-rr-ui-event-key="/#"
+                  disabled={false}
+                  href="/#"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="fb"
+                    className=""
+                    src="static/img/fb-icon.png"
+                  />
+                </a>
+              </div>
+              <div
+                className="nav-item"
+              >
+                <a
+                  className="p-1 m-0 nav-link"
+                  data-rr-ui-event-key="/#"
+                  disabled={false}
+                  href="/#"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="twitter"
+                    className=""
+                    src="static/img/twitter-icon.png"
+                  />
+                </a>
+              </div>
+              <div
+                className="nav-item"
+              >
+                <a
+                  className="p-1 m-0 nav-link"
+                  data-rr-ui-event-key="/#"
+                  disabled={false}
+                  href="/#"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="linkedin"
+                    className=""
+                    src="static/img/linkedin-icon.png"
+                  />
+                </a>
+              </div>
+              <div
+                className="nav-item"
+              >
+                <a
+                  className="p-1 m-0 nav-link"
+                  data-rr-ui-event-key="/#"
+                  disabled={false}
+                  href="/#"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="instagram"
+                    className=""
+                    src="static/img/instagram-icon.png"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="copyright_section container-fluid"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="copyright_text align-self-center bg-transparent flex-row justify-content-center fs-5 card"
+      >
+        2022 All Rights Reserved. Design by
+        <a
+          className="card-link"
+          href="https://html.design"
+        >
+          Free html Templates
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

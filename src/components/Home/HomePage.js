@@ -7,6 +7,8 @@ import News from '../News/News';
 import Contact from '../Contact/Contact';
 import Client from '../Client/Client';
 import Data from '../../Data/Data';
+import New from '../New/New';
+import Sample from '../Extra/Sample';
 const HomePage = () => {
     //   console.log(Data);
     return (
@@ -17,6 +19,8 @@ const HomePage = () => {
             <News time={Data.time} />
             <Contact author={Data.author} />
             <Client />
+            <New />
+            <Sample />
             <Footer
                 email={Data.email}
                 phone={Data.phone}

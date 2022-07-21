@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing --new 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="d-flex card"
+    style={
+      Object {
+        "margin": "0 auto",
+        "width": "35%",
+      }
+    }
+  >
+    <h3
+      className="d-flex justify-content-center"
+    >
+      Contact
+    </h3>
+    <form
+      action=""
+      className="d-flex justify-content-center p-5 w-100 flex-column "
+      data-testid="valid-form"
+    >
+      <input
+        data-testid="input-name"
+        onChange={[Function]}
+        placeholder="Name"
+        required={true}
+        type="text"
+        value=""
+      />
+      <input
+        data-testid="input-email"
+        onChange={[Function]}
+        placeholder="Email"
+        required={true}
+        type="email"
+        value=""
+      />
+      <input
+        placeholder="Message"
+        type="text"
+      />
+      <input
+        data-testid="input-checkbox-checked"
+        type="checkbox"
+      />
+      <button
+        className="btn"
+        data-testid="submit-btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Click me
+      </button>
+    </form>
+  </div>
+</div>
+`;

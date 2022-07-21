@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing --client 1`] = `
+<div
+  className="client_section layout_padding container-fluid"
+>
+  <div
+    className="carousel slide container"
+    data-ride="carousel"
+    id="my_slider"
+  >
+    <div
+      className="carousel-inner container"
+    >
+      <div
+        className="carousel-item active container"
+      >
+        <div
+          className="bg-transparent border-0 card"
+        >
+          <div
+            className="client_taital fs-1 card-title h5"
+          >
+            What People Say
+          </div>
+          <p
+            className="client_text card-text"
+          >
+            It is a long established fact that a reader will be distracted
+             
+          </p>
+          <div
+            className="client_section_2 card-body"
+          >
+            <p
+              className="client_left card-text"
+            >
+              <img
+                alt="client-img"
+                className="card-img client_img p-3"
+                src="static/img/client-img.png"
+              />
+            </p>
+            <div
+              className="client_right card-title h5"
+            >
+              <div
+                className="distracted_text fs-2 card-subtitle h6"
+              >
+                Distracted by
+              </div>
+              <p
+                className="lorem_text card-text"
+              >
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+              </p>
+              <p
+                className="quote_icon card-text"
+              >
+                <img
+                  alt="img"
+                  className="card-img"
+                  src="static/img/quote-icon.png"
+                  style={
+                    Object {
+                      "width": "8%",
+                    }
+                  }
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a
+      className="carousel-control-prev card-link"
+      data-slide="prev"
+      href="#my_slider"
+      role="button"
+    >
+      <i
+        className="fa fa-long-arrow-left"
+        style={
+          Object {
+            "fontSize": "24px",
+            "paddingTop": "4px",
+          }
+        }
+      />
+    </a>
+    <a
+      className="carousel-control-next card-link"
+      data-slide="next"
+      href="#my_slider"
+      role="button"
+      style={
+        Object {
+          "marginLeft": "-1px",
+        }
+      }
+    >
+      <i
+        className="fa fa-long-arrow-right"
+        style={
+          Object {
+            "fontSize": "24px",
+            "paddingTop": "4px",
+          }
+        }
+      />
+    </a>
+  </div>
+</div>
+`;

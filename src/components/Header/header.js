@@ -3,10 +3,6 @@ import { Col, Container, Nav, Row, Card, Image, Button } from 'react-bootstrap';
 import './header.css';
 
 const header = () => {
-    const nav_toggler = () => {
-        console.log('clicked');
-    };
-
     return (
         <>
             <Container fluid className="header_section">
@@ -24,18 +20,16 @@ const header = () => {
                         aria-controls="navbarSupportedContent"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
+                        data-testid="enable_btn"
                     >
-                        <Card.Subtitle
-                            className="navbar-toggler-icon d-flex"
-                            onClick={nav_toggler}
-                        ></Card.Subtitle>
+                        <Card.Subtitle className="navbar-toggler-icon d-flex"></Card.Subtitle>
                     </Button>
                     <Container
                         className="collapse navbar-collapse justify-content-end"
                         id="navbarSupportedContent"
                     >
                         <Nav className="navbar-nav mr-auto">
-                            <Nav.Item clasName="nav-item active">
+                            <Nav.Item className="nav-item active">
                                 <Nav.Link
                                     className="nav-link"
                                     href="index.html"
@@ -121,7 +115,10 @@ const header = () => {
                                             </Card.Text>
                                             <Card.Subtitle className="btn_main">
                                                 <Card.Subtitle className="more_bt">
-                                                    <Card.Link href="/">
+                                                    <Card.Link
+                                                        href="/"
+                                                        role="contact_btn"
+                                                    >
                                                         Contact Now
                                                     </Card.Link>
                                                 </Card.Subtitle>
